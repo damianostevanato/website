@@ -94,7 +94,7 @@ class Query
             $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             foreach ($result as $row) {
-                
+
                 return $row['max_id'];
             }
         } else {
